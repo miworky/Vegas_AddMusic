@@ -46,7 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AudioFiles.cs" />
-    <Compile Include="Class1.cs" />
+    <Compile Include="AddMusic.cs" />
     <Compile Include="MusicAdder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
