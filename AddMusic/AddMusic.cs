@@ -53,7 +53,7 @@ namespace AddMusic
 
             if (vegas.Project.Tracks.Count <= MusicTrackNo)
             {
-                MessageBox.Show("Error: Requires 4 tracks or more.");
+                MessageBox.Show("Error: Requires 5 tracks or more.");
                 return;
             }
 
