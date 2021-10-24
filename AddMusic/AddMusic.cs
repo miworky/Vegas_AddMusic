@@ -161,11 +161,10 @@ namespace AddMusic
 
         // 画像のファイルパスかどうかを返す
         // 画像かどうかは、拡張子で判断する
-        // HEIFの exif は読み方がわからないので、非対応
         private bool IsImage(string path)
         {
             // 画像の拡張子リスト
-            string[] Extentions = new string[] { ".jpg", ".jpeg" };
+            string[] Extentions = new string[] { ".jpg", ".jpeg", ".heic" };
 
             return isSameExtention(path, Extentions);
         }
